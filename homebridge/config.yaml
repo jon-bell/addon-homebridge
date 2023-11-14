@@ -10,6 +10,7 @@ arch:
   - i386
 url: "https://github.com/jon-bell/addon-homebridge"
 init: false
+webui: http://[HOST]:8581/
 host_network: true
 map:
   - config:rw
