@@ -1,0 +1,16 @@
+name: "Homebridge"
+version: "dev"
+slug: homebridge
+description: >-
+  "Runs Homebridge on your Home Assistant instance. DO NOT use this to expose Home Assistant to HomeKit. Use the Home Assistant integration instead. Use this to use custom homebridge plugins in Home Assistant."
+arch:
+  - amd64
+  - aarch64
+  - armhf
+  - i386
+url: "https://github.com/jon-bell/addon-homebridge"
+init: false
+host_network: true
+map:
+  - config:rw
+  - ssl

@@ -1,0 +1,5 @@
+build_from:
+  amd64: homebridge/homebridge:latest
+  aarch64: homebridge/homebridge:latest
+  armhf: homebridge/homebridge:latest
+  i386: homebridge/homebridge:latest
