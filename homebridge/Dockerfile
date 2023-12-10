@@ -10,6 +10,8 @@ ENV ENABLE_AVAHI=0
 
 # Copy root filesystem
 # COPY rootfs /
+RUN mkdir /data
+RUN rm -rf /homebridge
 RUN ln -s /data /homebridge
 
 # Build arugments
